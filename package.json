@@ -1,0 +1,25 @@
+{
+  "name": "node2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "checkpoint": "git add .  && git commit -m '.' && git push origin master ",
+    "pretest": "npm install",
+    "test": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awienberg/Node.4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Awienberg/Node.4/issues"
+  },
+  "homepage": "https://github.com/Awienberg/Node.4#readme",
+  "dependencies": {
+    "http-status-codes": "^1.4.0"
+  }
+}
